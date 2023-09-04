@@ -23,7 +23,7 @@ def loadImages():
     """
     pieces = ['wp', 'wR', 'wN', 'wB', 'wK', 'wQ', 'bp', 'bR', 'bN', 'bB', 'bK', 'bQ']
     for piece in pieces:
-        IMAGES[piece] = p.transform.scale(p.image.load("D:\singh\Desktop\chess-engine-master\chess\images\\" + piece + ".png"), (SQUARE_SIZE, SQUARE_SIZE))
+        IMAGES[piece] = game.transform.scale(game.image.load("D:\singh\Desktop\chess-engine-master\chess\images\\" + piece + ".png"), (SQUARE_SIZE, SQUARE_SIZE))
 
 def main():
     """
