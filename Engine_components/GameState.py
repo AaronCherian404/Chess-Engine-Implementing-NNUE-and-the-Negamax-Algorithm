@@ -2,8 +2,8 @@
 Initiates and updates the gamestate of the board.
 """
 
-from Move import Move
-from CastlingRights import CastleRights
+from Engine_components.Move import Move
+from Engine_components.CastlingRights import CastleRights
 
 class GameState:
     def __init__(self):
@@ -89,7 +89,7 @@ class GameState:
         self.castle_rights_log.append(CastleRights(self.current_castling_rights.wks, self.current_castling_rights.bks,
                                                    self.current_castling_rights.wqs, self.current_castling_rights.bqs))
 
-    def undoMove(self):
+    # def undoMove(self):
         """
         Undo the last move
         """
