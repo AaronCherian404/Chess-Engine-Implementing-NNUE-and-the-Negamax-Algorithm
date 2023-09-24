@@ -8,7 +8,7 @@ import pygame as game
 import sys
 from multiprocessing import Process, Queue
 from Engine_components.GameState import GameState
-from Engine_components.Move import Move
+from Engine_components import Move
 
 BOARD_WIDTH = BOARD_HEIGHT = 512
 MOVE_LOG_PANEL_WIDTH = 250
