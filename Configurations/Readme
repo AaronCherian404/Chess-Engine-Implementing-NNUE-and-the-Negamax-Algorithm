@@ -1,1 +1,0 @@
-To store any configuration parameters and settings for the engine. May be utilised for dynamic function calling supported by python to run the engine in different modes or to store the difficulty level. 
