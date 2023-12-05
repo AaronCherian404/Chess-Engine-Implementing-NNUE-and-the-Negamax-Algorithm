@@ -1,0 +1,1 @@
+This is to store any pre-weights for the model that it followes before the training. We may also include any book data (called as book move in chess.com) here for the engine to utilise.
